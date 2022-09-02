@@ -20,9 +20,4 @@ steps:
   inputs:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'os-conn'
-    cmd: 'oc start-build nodejs-ex --follow'    
-- task: oc-cmd@2
-  inputs:
-    connectionType: 'OpenShift Connection Service'
-    openshiftService: 'os-conn'
     cmd: 'oc status'
