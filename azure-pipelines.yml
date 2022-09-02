@@ -21,3 +21,4 @@ steps:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'os-conn'
     cmd: 'oc status'
+  condition: failed()
