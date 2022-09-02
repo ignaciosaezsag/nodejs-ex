@@ -14,7 +14,7 @@ steps:
   inputs:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'os-conn'
-    #cmd: 'oc start-build nodejs-ex --follow'
+    cmd: 'oc start-build nodejs-ex --follow'
     #cmd: 'oc new-app https://github.com/fedeos/nodejs-ex -l name=vssummit-app'
 - task: oc-cmd@2
   inputs:
